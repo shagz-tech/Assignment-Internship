@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 6 - Mini HTML Project</title>
+</head>
+<body>
+
+    <header>
+        <h1>Student Portfolio</h1>
+        <p>A Mini Project combining all Week 1 HTML concepts</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a> |
+        <a href="#skills">Skills</a> |
+        <a href="#gallery">Gallery</a> |
+        <a href="#registration">Registration</a> |
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <main>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I am a <b>B.Tech CSE student</b>, currently learning
+               <i>Web Development</i>. This mini project combines
+               <u>text formatting, images, links, lists, tables, forms,
+               and semantic HTML</u>.</p>
+        </section>
+
+        <section id="skills">
+            <h2>My Skills</h2>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS (upcoming)</li>
+                <li>JavaScript (upcoming)</li>
+            </ul>
+
+            <h3>Ordered List of Learning Path</h3>
+            <ol>
+                <li>HTML Fundamentals</li>
+                <li>CSS Styling</li>
+                <li>JavaScript Logic</li>
+            </ol>
+        </section>
+
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <article>
+                <img src="profile.jpg" alt="Student Profile Picture" width="200">
+                <p>My Profile Picture</p>
+            </article>
+        </section>
+
+        <section id="marks">
+            <h2>Marks Table</h2>
+            <table border="1" cellpadding="8" cellspacing="0">
+                <tr>
+                    <th>Subject</th>
+                    <th>Marks</th>
+                </tr>
+                <tr>
+                    <td>HTML</td>
+                    <td>95</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>90</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="registration">
+            <h2>Quick Contact Form</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter name"><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter email"><br><br>
+
+                <label>Interested In:</label>
+                <input type="checkbox" id="webdev" name="interest" value="webdev">
+                <label for="webdev">Web Development</label><br><br>
+
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </form>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>External Link: <a href="https://github.com" target="_blank">Visit GitHub</a></p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Student Portfolio | Mini HTML Project - Week 1</p>
+    </footer>
+
+</body>
+</html>
