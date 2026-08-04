@@ -55,7 +55,7 @@ Pure **HTML5** — no CSS, no JavaScript, as per assignment guidelines.
 
 1. Clone this repository
 ```bash
-   git clone [https://github.com/shagz-tech/repo-name.git](https://github.com/shagz-tech/Assignment-Internship)
+   git clone (https://github.com/shagz-tech/Assignment-Internship)
 ```
 2. Open any `.html` file directly in your browser, or use **Live Server** in VS Code.
 
